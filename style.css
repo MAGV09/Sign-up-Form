@@ -34,7 +34,15 @@ h5 {
   font-size: inherit;
   font-weight: inherit;
 }
-
+input,
+textarea,
+select,
+button {
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+  font-size: 100%;
+}
 img {
   display: block;
 }
@@ -46,7 +54,7 @@ body {
 }
 
 .main-container {
-  width: 76vw;
+  width: 70vw;
   height: 100vh;
   margin: 0 auto;
   display: flex;
